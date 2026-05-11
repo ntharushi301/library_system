@@ -197,7 +197,7 @@ include '../includes/sidebar.php';
                             href="?delete=<?= $b['book_id'] ?>" 
                             class="btn btn-danger btn-action"
 
-                            <!-- Confirmation popup before delete -->
+                            
                             onclick="return confirm('Delete this book?')"
                         >
 
