@@ -1,6 +1,6 @@
 <?php
-require_once '../includes/header.php';
-require_once '../config/db.php';
+require_once '../includes/header.php';//initializing database
+require_once '../config/db.php';//getting database connection
 
 $error = $success = '';
 $books   = $conn->query("SELECT * FROM book ORDER BY book_id");
